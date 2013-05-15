@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `#__mdagreement` ( `id` int(11) NOT NULL auto_increment, `user_id` int(11) NOT NULL, `full_name` varchar(50) NOT NULL, `accept_date` datetime NOT NULL, `published` tinyint(1) unsigned NOT NULL default"0", `modified_date` datetime NOT NULL, `modified_by` varchar(50) NOT NULL, PRIMARY KEY (`id`));

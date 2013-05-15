@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0"> 
+<name>Mdagreement</name> 
+<author>Mardink Engineering(joomla.mardink.nl)</author> 
+<creationDate>June 2010</creationDate> 
+<copyright>(C) 2010</copyright> 
+<authorEmail></authorEmail> 
+<authorUrl>joomla.mardink.nl</authorUrl> 
+<version>1.2</version> 
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL v2.0</license> 
+<description>A component for managing acceptance of agreements or terms to enter a site.</description> 
+<installfile>install.mdagreement.php</installfile> 
+<uninstallfile>uninstall.mdagreement.php</uninstallfile> 
+<install> 
+<sql> 
+<file driver="mysql" charset="utf8">install.mysql.sql</file> 
+</sql> 
+</install> 
+<uninstall> 
+<sql> 
+<file driver="mysql" charset="utf8">uninstall.mysql.sql</file> 
+</sql> 
+</uninstall> 
+<files folder="site">
+<filename>mdagreement.php</filename>
+<folder>images</folder>
+<folder>views</folder>
+</files>
+<administration>
+<menu>MD Agreement</menu>
+<files folder="admin">
+<filename>mdagreement.php</filename>
+<filename>config.xml</filename>
+<folder>controllers</folder>
+<filename>install.mysql.sql</filename>
+<filename>uninstall.mysql.sql</filename>
+<folder>models</folder>
+<folder>tables</folder>
+<folder>views</folder>
+<filename>install.mdagreement.php</filename>
+<filename>uninstall.mdagreement.php</filename>
+</files>
+</administration>
+</install>
+
+

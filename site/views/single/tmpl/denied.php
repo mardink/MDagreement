@@ -1,0 +1,1 @@
+<?php defined( '_JEXEC' ) or die( 'Restricted access' ); ?><div class="componentheading"><?php echo JText::_('Not Accepted') ?></div><p><?php echo htmlspecialchars($this->deniedtext) ?></p><?php if(($this->deniedlinkshow)==1){?><p><a href="<?php echo htmlspecialchars($this->dlink) ?>"><?php echo JText::_('Continue') ?></a></p><?php }?>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<params>
+<param name="main_texttitle" type="textarea" default="Accept the agreement to enter the site" rows="2" cols="40" label="Title to be shown at the mainpage." description="Type the text that needs to be shown.">
+</param>
+<param name="main_text" type="textarea" default="Please accept the agreement" rows="10" cols="40" label="text to be shown at the mainpage." description="Type the text that needs to be shown.">
+</param>
+<param name="agreement" type="textarea" default="" rows="1" cols="40" label="Typ the id of the article." description="Type the id of the item to be shown.">
+</param>
+<param name="accept_text" type="radio" default="0" label="Show text after accept?" description="When set to 'yes',
+the user will get the text typed below with a link. When set to no the user will be redirected to the accept link directly.">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</param>
+<param name="accept_text_field" type="textarea" default="Thanks for accepting" rows="10" cols="40" label="text to be shown after accepting the agreement." description="Type the text that needs to be shown.">
+</param>
+<param name="accept_link_show" type="radio" default="1" label="Show Link after Accept" description="When set to 'yes', typ the link below. When No only the message will be shown">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</param>
+<param name="accept_link" type="textarea" default="http://joomla.mardink.nl" rows="2" cols="40" label="page to be shown after accepting the agreement." description="Type the link.">
+</param>
+<param name="denied_text" type="radio" default="0" label="Show text after denied?" description="When set to 'yes',
+the user will get the text typed below with a link. When set to no the user will be redirected to the denied link directly.">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</param>
+<param name="denied_text_field" type="textarea" default="You didn't accept the agreement" rows="10" cols="40" label="text to be shown after denial of the agreement." description="Type the text that needs to be shown.">
+</param>
+<param name="denied_link_show" type="radio" default="0" label="Link after Deny" description="When set to 'yes', typ the link below. When No only the message will be shown">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</param>
+<param name="denied_link" type="textarea" default="http://joomla.mardink.nl" rows="2" cols="40" label="page to be shown after denial of the agreement." description="Type the link.">
+</param>
+</params>
+</config>

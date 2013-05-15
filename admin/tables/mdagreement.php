@@ -1,0 +1,1 @@
+<?phpdefined('_JEXEC') or die('Restricted access');class TableMdagreement extends JTable{var $id = null;var $user_id = null;var $full_name = null;var $accept_date = null;var $published = null;var $modified_date = null;var $modified_by = null;function __construct(&$db){parent::__construct( '#__mdagreement', 'id', $db );}}

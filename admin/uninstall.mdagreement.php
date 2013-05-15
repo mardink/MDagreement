@@ -1,0 +1,1 @@
+<?php defined( '_JEXEC' ) or die( 'Restricted access' );function com_uninstall(){?><div class="header">MD Agreement is now removed from your system.</div><p>We are sorry to see you go.</p><?php}
